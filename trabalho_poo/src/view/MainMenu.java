@@ -69,9 +69,6 @@ public class MainMenu {
         sc.close();
     }
 
-    // =====================================================
-    // USUÁRIOS
-    // =====================================================
     private static void menuUsuarios(Scanner sc, UsuarioDAO usuarioDAO) {
         int opcao = -1;
         while (opcao != 0) {
@@ -207,9 +204,7 @@ public class MainMenu {
         }
     }
 
-    // =====================================================
-    // INGRESSOS (SEM id_evento !!!)
-    // =====================================================
+ 
     private static void menuIngressos(Scanner sc, IngressosDAO ingressoDAO) {
         int opcao = -1;
 
@@ -360,9 +355,7 @@ public class MainMenu {
         }
     }
 
-    // =====================================================
-    // PEDIDOS
-    // =====================================================
+
     private static void menuPedidos(Scanner sc, PedidosDAO pedidoDAO) {
         int opcao = -1;
 
