@@ -39,12 +39,12 @@ Status: **pendente**, **pago**, **cancelado**
 
 ## ▶️ Como Executar
 
-### 1. Criar o banco de dados ou baixar:
 
 ```sql
+1. Criar o banco de dados ou baixar:
 CREATE DATABASE bilheteriaumj;
 USE bilheteriaumj;
-Crie as tabelas conforme o arquivo SQL do projeto.
+E acesse as tabelas no arquivo SQL do projeto.
 
 2. Configurar a conexão no arquivo ConnectionFactory.java:
 
